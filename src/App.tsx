@@ -15,7 +15,7 @@ const App: FC = () => {
             setUser({username: localStorage.getItem('username' || '')} as IUser)
             setIsAuth(true);
         }
-    }, [])
+    })
     return (
         <Layout>
             <Navbar/>
