@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7d277e-c0a5-462f-b42e-e4327eb08b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ts.external.directory.path" value="H:\Мои Документы\React_TypeScript\advance-app\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="H:\Мои Документы\React_TypeScript\calendar-app\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,7 +59,7 @@
       <workItem from="1677147619544" duration="1775000" />
       <workItem from="1677153059810" duration="1245000" />
       <workItem from="1677154852882" duration="2265000" />
-      <workItem from="1677190510247" duration="581000" />
+      <workItem from="1677190510247" duration="2411000" />
     </task>
     <servers />
   </component>
