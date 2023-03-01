@@ -1,46 +1,52 @@
 import React, {FC} from 'react';
-import {Layout, Menu, Row} from "antd";
+import {Layout, Menu, Row} from 'antd';
 import {RouteNames} from "../router";
 import {useTypedSelector} from "../hooks/useTypedSelector";
 import {useActions} from "../hooks/useActions";
-import { useNavigate } from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 const Navbar: FC = () => {
+    const {Header} = Layout;
     const navigate = useNavigate();
     const {isAuth, user} = useTypedSelector(state => state.authReducer)
     const {logout} = useActions()
+    const USERNAME = user.username
 
     return (
-        <Layout.Header>
-            <Row justify="end">
+        <Layout className="layout">
+            <Header>
                 {isAuth
                     ?
-                    <>
-                        <div style={{color: 'white'}}>
-                            {user.username}
-                        </div>
-                        <Menu theme="dark" mode="horizontal" selectable={false}>
-
-                            <Menu.Item
-                                onClick={logout}
-                                key={1}
-                            >
-                                Logout
-                            </Menu.Item>
-                        </Menu>
-                    </>
+                    <Row justify="end">
+                        <Menu theme="dark" mode="horizontal" selectable={false}
+                              items={[
+                                  {
+                                      key: '1',
+                                      label: USERNAME
+                                  },
+                                  {
+                                      key: '2',
+                                      label: 'logout',
+                                      onClick: logout
+                                  }
+                              ]}
+                        />
+                    </Row>
                     :
-                    <Menu theme="dark" mode="horizontal" selectable={false}>
-                        <Menu.Item
-                            onClick={() => navigate(RouteNames.LOGIN)}
-                            key={1}
-                        >
-                            Login
-                        </Menu.Item>
-                    </Menu>
+                    <Row justify="end">
+                        <Menu theme="dark" mode="horizontal" selectable={false}
+                              items={[
+                                  {
+                                      key: '3',
+                                      label: 'Login',
+                                      onClick: () => navigate(RouteNames.LOGIN)
+                                  }
+                              ]}
+                        />
+                    </Row>
                 }
-            </Row>
-        </Layout.Header>
+            </Header>
+        </Layout>
     );
 };
 

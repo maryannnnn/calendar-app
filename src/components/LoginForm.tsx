@@ -1,6 +1,6 @@
 
 import React, {FC, useState} from 'react';
-import {Button, Form, Input} from "antd";
+import {Button, Form, Input, Row} from "antd";
 import {rules} from "../utils/rules";
 import {useTypedSelector} from "../hooks/useTypedSelector";
 import {useActions} from "../hooks/useActions";
@@ -23,7 +23,7 @@ const LoginForm: FC = () => {
                 {error}
             </div>}
             <Form.Item
-                label="Имя пользователя"
+                label="Name"
                 name="username"
                 rules={[rules.required("Please input name!")]}
             >
@@ -33,7 +33,7 @@ const LoginForm: FC = () => {
                 />
             </Form.Item>
             <Form.Item
-                label="Пароль"
+                label="Password"
                 name="password"
                 rules={[rules.required("Please input password")]}
             >
@@ -43,11 +43,13 @@ const LoginForm: FC = () => {
                     type={"password"}
                 />
             </Form.Item>
-            <Form.Item>
-                <Button type="primary" htmlType="submit" loading={isLoading}>
-                    Login
-                </Button>
-            </Form.Item>
+            <Row justify="end">
+                <Form.Item>
+                    <Button type="primary" htmlType="submit" loading={isLoading}>
+                        Login
+                    </Button>
+                </Form.Item>
+            </Row>
         </Form>
     );
 };
