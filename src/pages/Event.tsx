@@ -18,7 +18,7 @@ const Event: FC = () => {
 
     useEffect(() => {
         fetchEvents(user.username)
-    }, [user.username])
+    })
 
     const addNewEvent =(event: IEvent) => {
         setIsModalOpen(false);

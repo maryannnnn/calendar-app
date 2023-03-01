@@ -11,20 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c7d277e-c0a5-462f-b42e-e4327eb08b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EventCalendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EventForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Event.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/event/action-ceator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/event/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/event/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EventCalendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EventCalendar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Event.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/auth/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/rules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/rules.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <workItem from="1677583156438" duration="20966000" />
       <workItem from="1677623342971" duration="4619000" />
       <workItem from="1677671423537" duration="15502000" />
-      <workItem from="1677704717768" duration="593000" />
+      <workItem from="1677704717768" duration="1075000" />
     </task>
     <servers />
   </component>

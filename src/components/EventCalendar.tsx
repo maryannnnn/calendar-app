@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
-import {BadgeProps, Badge, Calendar} from "antd";
+import {Calendar} from "antd";
 import {IEvent} from "../models/Event";
-import moment, {Moment} from "moment";
 
 interface EventCalendarProps {
     events: IEvent[];
