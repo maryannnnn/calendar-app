@@ -12,9 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c7d277e-c0a5-462f-b42e-e4327eb08b47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EventCalendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EventCalendar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Event.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="ts.external.directory.path" value="H:\Мои Документы\React_TypeScript\calendar-app\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
@@ -59,7 +64,17 @@
       <workItem from="1677147619544" duration="1775000" />
       <workItem from="1677153059810" duration="1245000" />
       <workItem from="1677154852882" duration="2265000" />
-      <workItem from="1677190510247" duration="2411000" />
+      <workItem from="1677190510247" duration="3360000" />
+      <workItem from="1677288828757" duration="93000" />
+      <workItem from="1677358425567" duration="2622000" />
+      <workItem from="1677411731576" duration="1175000" />
+      <workItem from="1677443600921" duration="583000" />
+      <workItem from="1677495588769" duration="13934000" />
+      <workItem from="1677534764716" duration="8975000" />
+      <workItem from="1677583156438" duration="20966000" />
+      <workItem from="1677623342971" duration="4619000" />
+      <workItem from="1677671423537" duration="15502000" />
+      <workItem from="1677704717768" duration="1075000" />
     </task>
     <servers />
   </component>
@@ -79,6 +94,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2194" y="431" key="#ESLint" timestamp="1677497602685">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2194" y="431" key="#ESLint/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1677497602685" />
     <state x="2084" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1676980873077">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

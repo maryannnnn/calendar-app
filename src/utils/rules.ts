@@ -2,7 +2,7 @@
 import moment, {Moment} from "moment";
 
 export const rules = {
-    required: (message: string = "Обязательное поле") => ({
+    required: (message: string = "Required field") => ({
         required: true,
         message
     }),
